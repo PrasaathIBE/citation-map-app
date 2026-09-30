@@ -191,7 +191,7 @@ import time
 st.set_page_config(layout="wide")
 st.title("🌍 Citation Map Visualization with ArcGIS")
 
-api_key = "AAPKdc7b2ff2df0643c9862ec9d816a967c68kookelLZzekcspoX5TtjXoVKK9lvFU3vJ6sILgSwqXg8efMFEBCc9NlnqYtlAid"
+api_key = "AAPTaiWjXPzgowMZT7jNiiV4sZg..fZWlHwm5HgC5t_EuUWV82KUOeSf4sR37HXhAwufktIO5LUQwxcC3GKrXrJYcfDPvWz2XpiuYJDk-RJEhU7d--v_5XAKzv2U6uR0oDrOMKlA6pcEMXgb9MuO1EdDUkneNCcnVTcWzS3uLA-Jst8jpC6FQ2FrfCKFnmwDehoxpQUtQOtX3ZYLHHog9S3_-JyVO4w4pSL0VGny4ne7beOTskc_VXt3OLtaxLlonMDlwJQ3D3_9U8F-T9kEhJCQC5Byw4wMjduMYho4.AT1_thvavnaT"
 
 def get_lat_long_arcgis(university, country):
     geocode_url = "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
